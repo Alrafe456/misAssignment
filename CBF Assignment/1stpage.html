@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brazil Football Fan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background-color: #eaee0a;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .logo {
+            width: 100px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #009c3b;
+            padding-top: 0px;
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            height: 100%;
+            left: 0;
+            top: 0;
+            padding-top: 80px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            font-size: 18px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #ffcc29;
+            color: black;
+        }
+
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .news {
+            background-color: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            background-color: #ffcc29;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="CBF logo.png" class="logo" alt="Brazil Logo">
+        <h1>Brazil Football Fan</h1>
+    </header>
+
+    <div class="sidebar">
+        <li><a href="index.html">🏠 Home</a></li>
+        <li><a href="2ndpage.html">👥 Squad</a></li>
+        <li><a href="match history.html">📅 Matches</a></li>
+        <li><a href="legend.html">🏆 Legends</a></li>
+        <li><a href="match history.html">📖 Football History</a></li>
+        <li><a href="about.html">ℹ️ About</a></li>
+        <a href="2ndpage.html" class="btn">View Brazil Squad</a>
+
+    </div>
+
+    <div class="content">
+        <h2>Welcome to the Ultimate Brazil Football Fan Page! 🇧🇷⚽</h2>
+        <p>Stay updated with the latest news, matches, and highlights of Brazil's football team.</p>
+        
+        <div class="news">
+            <h3>🔥 New Match Update</h3>
+            <p>Brazil Vs Colombia 💪⚽</p>
+            <p>Time: Mar 21, 6:45 AM</p>
+            <a href="news.html" class="btn">Read More</a>
+        </div>
+
+        <div class="news">
+            <h3>🌟 Top Player of the Month</h3>
+            <p>Neymar Jr. has been outstanding with 5 goals in the last 3 matches! 🏆</p>
+            <a href="players.html" class="btn">View Player Stats</a>
+        </div>
+    </div>
+
+</body>
+</html>
